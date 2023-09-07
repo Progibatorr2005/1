@@ -1,0 +1,122 @@
+.frame{
+    background-color: white;
+    height: 600px;
+    width: 900px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text1{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(77, 77, 77);
+}
+
+.asdasd{
+    height: 30px;
+    width: 140px;
+    background-color: rgb(100, 100, 233);
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+.asdasdtext{
+    text-align: center;
+    vertical-align: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    
+}
+
+.divv{
+    display: inline-block;
+}
+
+.qwe{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gh{
+    width: 140px;
+    height: 35px;
+    border-bottom:2px;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(94, 94, 94);
+    margin-right: 20px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+}
+
+.qw{
+    width: 140px;
+    height: 45px;
+    box-shadow: 2px 1px 15px rgb(113, 113, 113);
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(78, 78, 78);
+}
+.a{
+    width: 140px;
+    height: 30px;
+    border-radius: 5%;
+    background-color: rgb(156, 156, 223);
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.or_line{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color:#7b8a92;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.or_line::before{
+    content: "";
+    width: 150px;
+	height: 1px;
+    background-color:#7b8a92;
+    margin-right: 10px;
+}
+
+.or_line::after{
+    content: "";
+    width: 150px;
+	height: 1px;
+    background-color:#7b8a92;
+    margin-left: 10px;
+}
+
+.divv2{
+    margin-top: 20px;
+    display: inline-block;
+    list-style-type: circle;
+    padding-inline-start: 1ch;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
